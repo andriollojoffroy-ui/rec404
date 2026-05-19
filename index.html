@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>REC404 Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- JS -->
+  <script src="/static/js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-header__logo">REC404</div>
+    <nav class="site-header__nav">
+      <a href="#films">Films</a>
+      <a href="#features">Focus</a>
+      <a href="#about">Studio</a>
+      <a href="#newsletter">Newsletter</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="hero__tagline">Studio indépendant</p>
+        <h1 class="hero__title">Ce projet, c'est notre vision : Une création indépendante !</h1>
+        <p class="hero__subtitle">
+          Films, séries et objets visuels à la frontière du rêve et de l’inconfort.
+        </p>
+        <button class="hero__cta" data-scroll="#films">Voir la sélection</button>
+      </div>
+      <div class="hero__meta">
+        <span>2026</span>
+        <span>Montélimar · FR</span>
+      </div>
+    </section>
+
+    <!-- SECTION FILMS -->
+    <section id="films" class="section section--padded">
+      <div class="section__header">
+        <h2 class="section__title">Catalogue</h2>
+        <p class="section__subtitle">Une sélection réduite, assumée, obsessionnelle.</p>
+      </div>
+
+      <div class="filters">
+        <button class="filters__btn is-active" data-filter="all">Tout</button>
+        <button class="filters__btn" data-filter="film">Films</button>
+        <button class="filters__btn" data-filter="serie">Séries</button>
+        <button class="filters__btn" data-filter="other">Objets</button>
+      </div>
+
+      <div class="grid grid--projects">
+
+        <!-- CARD 1 -->
+        <article class="card" data-type="film">
+          <div class="card__image" style="background-image:url('/static/images/flamme-funeste.jpeg');"></div>
+          <div class="card__body">
+            <p class="card__meta">Court métrage · 2025</p>
+            <h3 class="card__title">Flamme Funeste</h3>
+            <p class="card__desc">
+              Courte description.
+            </p>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="card" data-type="film">
+          <div class="card__image" style="background-image:url('/static/images/elias-north.jpeg');"></div>
+          <div class="card__body">
+            <p class="card__meta">Film · 2026</p>
+            <h3 class="card__title">Elias North</h3>
+            <p class="card__desc">
+              Film à venir, description aussi.
+            </p>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="card" data-type="serie">
+          <div class="card__image" style="background-image:url('/static/images/podcast.jpeg');"></div>
+          <div class="card__body">
+            <p class="card__meta">Podcast · 2025</p>
+            <h3 class="card__title">Un Endroit parfait entre amies · 2025</h3>
+            <p class="card__desc">
+              Description du podcast.
+            </p>
+          </div>
+        </article>
+
+        <!-- CARD 4 -->
+        <article class="card" data-type="other">
+          <div class="card__image" style="background-image:url('/static/images/rec404.jpeg');"></div>
+          <div class="card__body">
+            <p class="card__meta">Objet · Édition limitée</p>
+            <h3 class="card__title">Cassette 404</h3>
+            <p class="card__desc">
+              place supplémentaire.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- FEATURE -->
+    <section id="features" class="section section--feature">
+      <div class="feature">
+        <div class="feature__media" style="background-image:url('/static/images/rec404.jpeg');"></div>
+        <div class="feature__content">
+          <p class="feature__label">Focus</p>
+          <h2 class="feature__title">Flamme Funeste</h2>
+          <p class="feature__text">
+            Le film s’intitule flamme funeste, dans le court-métrage où on peut jouer avec l’ambiguïté et laisser le destin d’Alice et de Romain, et que va devenir l’homme qui les effraie temps. 
+Le court-métrage est ouvert à l’interprétation du spectateur, et elle est destinée à affronter les horreurs de la maison hantée. Où est-ce que tout cela était le produit de leur imagination.
+
+
+🎬 Un film de Stephen Delboy
+📜 Scénario : Lola Charpentier & Stephen Delboy
+🎵 Musique originale : Antoine Steinbach (© Tous droits réservés)
+
+AVEC :
+👤 Romain – Antoine Steinbach
+👩 Alice – Samantha Luciani
+🕴️ L’Homme – Duncan Salvaing
+
+ÉQUIPE TECHNIQUE :
+✂️ Montage – Nicolas Testud & Stephen Delboy
+🎥 Caméra – Fabien Bouzon & Eden Hubidos
+💄 Maquillage – Axel Pagliarella
+🎚️ Son – Aurélien Pamart
+🎶 Musique – Antoine Steinbach
+
+Remerciements spéciaux :
+🙏 Mellie-Michèle Arnaud, Hervé Landais
+ CINÉDA – Bureau du film Drôme-Ardèche pour l’accueil et le lieu de tournage
+🙏 Envolprod Vidéo pour le matériel son et lumière
+          </p>
+          <button class="feature__cta">Lire le dossier PDF</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section--padded">
+      <div class="section__header">
+        <h2 class="section__title">Elias North</h2>
+      </div>
+      <div class="about">
+        <p>
+          REC404 est une production indépendante basée en France, dédié aux récits à la marge :
+          films d’auteur, séries courtes, objets éditoriaux. Nous aimons les zones grises,
+          les silences, les images qui restent après le générique.
+        </p>
+        <p>
+          Nous travaillons avec des réalisateurs, musiciens, designers et développeurs
+          pour fabriquer des expériences complètes : écran, salle, objet, web.
+        </p>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="section section--padded section--border-top">
+      <div class="newsletter">
+        <div class="newsletter__intro">
+          <h2 class="section__title">Newsletter</h2>
+          <p class="section__subtitle">
+            Une fois de temps en temps. Pas de spam. Juste des projets en cours et des invitations.
+          </p>
+        </div>
+        <form class="newsletter__form">
+          <input type="email" placeholder="email@exemple.com" required>
+          <button type="submit">S’inscrire</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__marquee">
+      <span>REC404 PRODUCTION · FILMS · SÉRIES · OBJETS · 2026</span>
+      <span>REC404 PRODUCTION · FILMS · SÉRIES · OBJETS · 2026</span>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 REC404 PRODUCTION</span>
+      <span>Montélimar · FR</span>
+    </div>
+  </footer>
+
+</body>
+</html>
