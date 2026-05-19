@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rec404-tau.vercel.app/
