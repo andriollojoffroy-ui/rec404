@@ -170,6 +170,17 @@ body {
   opacity: 0.75;
 }
 
+.card--link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card--link:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
+
 /* ------------------------------
    FOOTER
 ------------------------------ */
