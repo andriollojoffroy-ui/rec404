@@ -52,9 +52,11 @@ body {
 }
 /* Style spécial pour le lien Cagnotte */
 .nav-cagnotte {
-  color: #ff2b2b;   /* rouge */
-  font-weight: 700; /* gras */
+  color: #ff2b2b !important;  /* 🔥 force le rouge */
+  font-weight: 700;
+  opacity: 1 !important;      /* 🔥 sinon le gris transparent reste */
 }
+
 
 
 /* ------------------------------
