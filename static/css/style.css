@@ -50,6 +50,12 @@ body {
 .site-header__nav a:hover {
   opacity: 1;
 }
+/* Style spécial pour le lien Cagnotte */
+.nav-cagnotte {
+  color: #ff2b2b;   /* rouge */
+  font-weight: 700; /* gras */
+}
+
 
 /* ------------------------------
    HERO
